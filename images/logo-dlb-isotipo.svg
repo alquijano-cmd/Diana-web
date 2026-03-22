@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90" role="img" aria-label="DLB Estudio Jurídico">
+  <title>DLB</title>
+  <!-- Fondo cuadrado navy -->
+  <rect width="90" height="90" fill="#0A1628"/>
+  <!-- Línea dorada superior -->
+  <line x1="12" y1="14" x2="78" y2="14" stroke="#C9A84C" stroke-width="1"/>
+  <!-- Monograma DLB centrado -->
+  <text x="45" y="62"
+    font-family="'Cormorant Garamond', Georgia, serif"
+    font-size="44"
+    font-weight="700"
+    text-anchor="middle"
+    fill="#FFFFFF">D<tspan fill="#C9A84C" font-weight="300">L</tspan>B</text>
+  <!-- Línea dorada inferior -->
+  <line x1="12" y1="74" x2="78" y2="74" stroke="#C9A84C" stroke-width="1"/>
+</svg>
