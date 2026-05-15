@@ -4,7 +4,7 @@
 
   <!-- Página principal -->
   <url>
-    <loc>https://dlbestudiojuridico.com.co/</loc>
+    <loc>https://dlblanco.com/</loc>
     <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -12,35 +12,35 @@
 
   <!-- Áreas de práctica (anchors) -->
   <url>
-    <loc>https://dlbestudiojuridico.com.co/#areas</loc>
+    <loc>https://dlblanco.com/#areas</loc>
     <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://dlbestudiojuridico.com.co/#quienes</loc>
+    <loc>https://dlblanco.com/#quienes</loc>
     <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://dlbestudiojuridico.com.co/#equipo</loc>
+    <loc>https://dlblanco.com/#equipo</loc>
     <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://dlbestudiojuridico.com.co/#cobertura</loc>
+    <loc>https://dlblanco.com/#cobertura</loc>
     <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://dlbestudiojuridico.com.co/#contacto</loc>
+    <loc>https://dlblanco.com/#contacto</loc>
     <lastmod>2025-07-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
