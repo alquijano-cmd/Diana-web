@@ -415,6 +415,20 @@ section {
   height: 1px;
   background: var(--dlb-gold);
 }
+.hero-logo {
+  display: block;
+  width: clamp(220px, 32vw, 420px);
+  height: auto;
+  margin: 0 0 28px 0;
+  filter: drop-shadow(0 4px 16px rgba(0,0,0,0.35));
+}
+
+@media (max-width: 768px) {
+  .hero-logo {
+    width: clamp(180px, 60vw, 320px);
+    margin-bottom: 22px;
+  }
+}
 
 .hero-title {
   color: var(--dlb-white);
