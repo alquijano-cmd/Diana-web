@@ -314,7 +314,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // 10. WHATSAPP FLOTANTE (opcional)
   // =====================================================
   const waBtn = document.createElement('a');
-  waBtn.href = 'https://wa.me/573000000000?text=Hola%2C%20deseo%20obtener%20información%20sobre%20sus%20servicios%20jurídicos.';
+  waBtn.href = 'https://wa.me/576076519927?text=Hola%2C%20deseo%20obtener%20información%20sobre%20sus%20servicios%20jurídicos.';
   waBtn.target = '_blank';
   waBtn.rel = 'noopener';
   waBtn.setAttribute('aria-label', 'Contactar por WhatsApp');
