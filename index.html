@@ -179,7 +179,7 @@
           {
             "@type": "Question",
             "name": "¿DLB Estudio Jurídico atiende casos fuera de Bucaramanga?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Sí. DLB Estudio Jurídico tiene cobertura en todo el oriente colombiano: Santander, Norte de Santander, Boyacá y Arauca, con presencia activa ante los principales juzgados y tribunales de la región. También atiende asuntos a nivel nacional en derecho de seguros." }
+            "acceptedAnswer": { "@type": "Answer", "text": "Sí. DLB Estudio Jurídico tiene cobertura en todo el oriente colombiano: Santander, Norte de Santander, Costa caribe, Boyacá y Arauca, con presencia activa ante los principales juzgados y tribunales de la región. También atiende asuntos a nivel nacional en derecho de seguros." }
           },
           {
             "@type": "Question",
@@ -541,7 +541,7 @@
             <i class="fas fa-plus faq-icon"></i>
           </button>
           <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-            <p itemprop="text">Sí. Nuestra firma tiene cobertura en todo el oriente colombiano: Santander, Norte de Santander, Boyacá y Arauca, con presencia activa ante los principales juzgados y tribunales de la región. También atendemos asuntos a nivel nacional en <strong>derecho de seguros en Colombia</strong>.</p>
+            <p itemprop="text">Sí. Nuestra firma tiene cobertura en todo el oriente colombiano: Santander, Norte de Santander, Boyacá y Arauca y Costa Caribe, con presencia activa ante los principales juzgados y tribunales de la región. También atendemos asuntos a nivel nacional en <strong>derecho de seguros en Colombia</strong>.</p>
           </div>
         </div>
         <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
@@ -857,33 +857,52 @@
 
         <!-- Mapa Visual -->
         <div class="cobertura-map" data-reveal>
-          <!-- Mapa SVG simplificado de Colombia -->
-          <svg viewBox="0 0 300 400" class="map-colombia" xmlns="http://www.w3.org/2000/svg">
-            <!-- Silueta simplificada de Colombia -->
-            <path d="M80 50 L120 30 L160 40 L200 60 L220 100 L230 140 L210 180 L220 220 L200 260 L180 300 L160 350 L140 380 L120 360 L100 330 L80 300 L60 270 L40 230 L50 190 L40 150 L50 110 L70 80 Z"
-              fill="rgba(201,168,76,0.12)" stroke="rgba(201,168,76,0.5)" stroke-width="1.5"/>
-            <!-- Punto Bucaramanga -->
-            <circle cx="158" cy="155" r="8" fill="#C9A84C" opacity="0.9">
-              <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite"/>
-              <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2s" repeatCount="indefinite"/>
-            </circle>
-            <circle cx="158" cy="155" r="4" fill="#C9A84C"/>
-            <!-- Otros puntos -->
-            <circle cx="145" cy="175" r="4" fill="rgba(201,168,76,0.5)"/>
-            <circle cx="170" cy="140" r="4" fill="rgba(201,168,76,0.5)"/>
-            <circle cx="135" cy="160" r="4" fill="rgba(201,168,76,0.5)"/>
-            <circle cx="120" cy="200" r="4" fill="rgba(201,168,76,0.5)"/>
-            <!-- Etiqueta -->
-            <text x="170" y="152" fill="#C9A84C" font-size="10" font-family="Outfit, sans-serif" font-weight="600">Bucaramanga</text>
-            <text x="170" y="164" fill="rgba(255,255,255,0.5)" font-size="8" font-family="Montserrat, sans-serif">Sede Principal</text>
-          </svg>
-          <p style="color:rgba(255,255,255,0.4); font-size:0.72rem; letter-spacing:0.14em; text-transform:uppercase; margin-top:16px;">Colombia · Oriente</p>
-        </div>
+  <!-- Mapa SVG simplificado de Colombia -->
+  <svg viewBox="0 0 300 400" class="map-colombia" xmlns="http://www.w3.org/2000/svg">
+    <!-- Silueta simplificada de Colombia -->
+    <path d="M80 50 L120 30 L160 40 L200 60 L220 100 L230 140 L210 180 L220 220 L200 260 L180 300 L160 350 L140 380 L120 360 L100 330 L80 300 L60 270 L40 230 L50 190 L40 150 L50 110 L70 80 Z"
+      fill="rgba(201,168,76,0.12)" stroke="rgba(201,168,76,0.5)" stroke-width="1.5"/>
+
+    <!-- Punto principal: Bucaramanga -->
+    <circle cx="158" cy="155" r="8" fill="#C9A84C" opacity="0.9">
+      <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="158" cy="155" r="4" fill="#C9A84C"/>
+
+    <!-- Oriente colombiano -->
+    <circle cx="145" cy="175" r="4" fill="rgba(201,168,76,0.55)"/>
+    <circle cx="170" cy="140" r="4" fill="rgba(201,168,76,0.55)"/>
+    <circle cx="135" cy="160" r="4" fill="rgba(201,168,76,0.55)"/>
+    <circle cx="120" cy="200" r="4" fill="rgba(201,168,76,0.55)"/>
+
+    <!-- Caribe colombiano -->
+    <circle cx="118" cy="92" r="4.5" fill="rgba(201,168,76,0.75)"/>
+    <circle cx="108" cy="108" r="4.5" fill="rgba(201,168,76,0.75)"/>
+    <circle cx="145" cy="100" r="4.5" fill="rgba(201,168,76,0.75)"/>
+    <circle cx="186" cy="78" r="4.5" fill="rgba(201,168,76,0.75)"/>
+
+    <!-- Etiqueta Bucaramanga -->
+    <text x="170" y="152" fill="#C9A84C" font-size="10" font-family="Outfit, sans-serif" font-weight="600">Bucaramanga</text>
+    <text x="170" y="164" fill="rgba(255,255,255,0.5)" font-size="8" font-family="Montserrat, sans-serif">Sede Principal</text>
+
+    <!-- Etiquetas Caribe -->
+    <text x="92" y="88" fill="rgba(201,168,76,0.9)" font-size="7.5" font-family="Montserrat, sans-serif">Atlántico</text>
+    <text x="78" y="122" fill="rgba(201,168,76,0.9)" font-size="7.5" font-family="Montserrat, sans-serif">Bolívar</text>
+    <text x="151" y="96" fill="rgba(201,168,76,0.9)" font-size="7.5" font-family="Montserrat, sans-serif">César</text>
+    <text x="193" y="74" fill="rgba(201,168,76,0.9)" font-size="7.5" font-family="Montserrat, sans-serif">La Guajira</text>
+  </svg>
+
+  <p style="color:rgba(255,255,255,0.4); font-size:0.72rem; letter-spacing:0.14em; text-transform:uppercase; margin-top:16px;">
+    Colombia · Oriente y Caribe
+  </p>
+</div>
+
 
         <!-- Lista -->
         <div data-reveal data-reveal-delay="2">
           <span class="section-label">Cobertura</span>
-          <h2>Presencia en el oriente colombiano</h2>
+          <h2>Presencia en el oriente y caribe colombiano</h2>
           <div class="divider-gold"></div>
           <p>Nuestra firma opera con representación activa ante los juzgados, tribunales y entidades administrativas de la región, garantizando presencia directa en los procesos de nuestros clientes.</p>
 
@@ -919,8 +938,8 @@
             <div class="cobertura-item">
               <i class="fas fa-map-marker-alt"></i>
               <div>
-                <strong>Oriente Colombiano</strong>
-                <span>Boyacá, Arauca y regiones de influencia</span>
+                <strong>Caribe Colombiano</strong>
+                <span>Atlántico, Bolívar, Cesar, La Guajira, Magdalena y regiones de influencia</span>
               </div>
             </div>
           </div>
