@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
           fecha:     new Date().toISOString()
         };
 
-        const response = await fetch('tables/consultas', {
+        const response = await fetch('https://formspree.io/f/xojbgqde', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formData)
@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', () => {
         form.reset();
         form.style.display = 'none';
         formSuccess.style.display = 'block';
-        formSuccess.animate([
+                formSuccess.animate([
           { opacity: 0, transform: 'translateY(10px)' },
           { opacity: 1, transform: 'translateY(0)' }
         ], { duration: 400, fill: 'forwards', easing: 'ease-out' });
