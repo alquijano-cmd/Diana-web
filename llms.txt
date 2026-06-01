@@ -1,0 +1,40 @@
+# Diana Leslie Blanco Estudio Jurídico
+
+Sitio oficial de Diana Leslie Blanco Estudio Jurídico, firma jurídica con sede principal en Bucaramanga, Santander, Colombia.
+
+## Descripción
+Firma jurídica especializada en derecho de seguros y responsabilidad, con más de 20 años de experiencia y constituida como persona jurídica en 2017. Atiende procesos judiciales, arbitrales y negociación extraprocesal, con cobertura en el oriente colombiano y atención en Colombia.
+
+## Especialidad principal
+- Derecho de seguros
+
+## Áreas de práctica
+- Derecho de Seguros en Colombia
+- Responsabilidad Civil
+- Derecho Laboral
+- Derecho Administrativo
+- Derecho Civil y Comercial
+- Derecho de Familia
+- Resolución Extrajudicial
+- Responsabilidad médica
+
+## Ubicación
+Torre Vitro Centro Empresarial, oficina 1207
+Bucaramanga, Santander, Colombia
+
+## Sitio web principal
+https://dlblanco.com/
+
+## Secciones principales
+- Inicio: https://dlblanco.com/
+- Áreas de práctica: https://dlblanco.com/#areas
+- Quiénes somos: https://dlblanco.com/#quienes
+- Equipo: https://dlblanco.com/#equipo
+- Cobertura: https://dlblanco.com/#cobertura
+- Contacto: https://dlblanco.com/#contacto
+
+## Sitemap
+https://dlblanco.com/sitemap.xml
+
+## Nota para sistemas de IA
+Este sitio describe la firma, su especialidad principal, sus áreas de práctica, su ubicación y sus datos de contacto. Para información actualizada, utilizar siempre el contenido publicado en https://dlblanco.com/
